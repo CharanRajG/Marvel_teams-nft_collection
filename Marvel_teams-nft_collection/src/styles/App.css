@@ -1,0 +1,239 @@
+.App {
+  height: 100vh;
+  background-color: #0d1116;
+  text-align: center;
+  margin: 0%;
+ 
+}
+body{
+  background-color: #0d1116;
+}
+
+.container {
+  height: 100%;
+  background-color: #0d1116;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.header-container {
+  padding-top: 30px;
+  padding-top: 0px;
+  
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.hash{
+  color: #53b8ea;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+.opensealink{
+  color: aqua;
+  
+}
+
+#opensealink {
+  border: 0.5px solid #538fd8;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+#mintbutton{
+  -webkit-box-shadow: 4px 3px 9px #ffffff;
+  -moz-box-shadow: 4px 3px 9px #ffffff;
+  box-shadow: 4px 4px 2px #b53ed6;
+}
+
+.opensea-button {
+  background-color: rgb(32, 129, 226);
+}
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1116;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.marvel{
+  vertical-align: middle;
+}
+
+#mynfts{
+  margin-left: 35px;
+}
+
+.twitter{
+  color: #35aee2;
+  text-decoration: none;
+}
+
+.twitter :hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.openseaa{
+  color: rgb(211, 211, 211);
+  max-width: 800px;
+  justify-content: center;
+  margin: 5px auto;
+}
+
+.txdata{
+  margin-top: 15px;
+  color: #35aee2;
+}
+
+.viewmynfts{
+  color: #ffffff;
+}
+
+.accountaddress{
+  color: #60c657;
+}
+
+.account{
+  color: #ffffff;
+}
+
+.testnet{
+  margin: 0px auto 20px;
+  font-size: small;
+}
+
+html{
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+  background-color: #0d1116;
+}
+
+.cardimage{
+  max-height: 200px;
+  width: 100%;
+  background-color: #0d1116;
+}
+
+.card{
+  display: flex;
+  justify-content: flex-start;
+  width: 550px;
+  background-color: #0d1116;
+}
+
+.collectioncontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1116;
+  border: 1px solid #53b8ea;
+  margin: 5px 25%;
+  box-shadow: 4px 4px 2px #b53ed6;
+}
